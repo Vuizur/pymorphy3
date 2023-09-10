@@ -30,7 +30,8 @@ py_version = sys.version_info[:2]
 install_requires = [
     'dawg-python >= 0.7.1',
     'docopt >= 0.6',
-    'pymorphy3-dicts-ru'
+    'pymorphy3-dicts-ru',
+    'setuptools'
 ]
 if py_version < (3, 0):
     install_requires.append("backports.functools_lru_cache >= 1.0.1")
